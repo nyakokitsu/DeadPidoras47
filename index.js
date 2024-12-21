@@ -26,8 +26,12 @@ function addFriend() {
   });
 }
 
-
-
+// Cookies exp handler
+community.on("sessionExpired", function(err) {
+	if (err) {
+		user.webLogOn();
+	}
+});
 
 user.logOn({
   accountName: username,
