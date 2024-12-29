@@ -65,7 +65,7 @@ T0XG9-5Y3G7-IPMHB
 `))
 */
 function activator(keys) {
-   for (const key in keys) {
+   for (const key of keys) {
       store.redeemWalletCode(key, function(err) {
         if (err) {
           // debug если ключ не активировался
