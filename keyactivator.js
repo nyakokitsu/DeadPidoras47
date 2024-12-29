@@ -86,7 +86,7 @@ async function eventPrint(event) {
     if (parseInt(message.peerId.channelId.value) == 1408669138) { // id канала деда(в формате telegram api, не bot api)
       if (message.message != '' || message.message) {
          const keys = getter(message.message)
-         console.log(`new message!\nfound ${keys.lenght} keys`)
+         console.log(`new message!\nfound ${keys.length} keys`)
          activator(keys)
       }
     }}
