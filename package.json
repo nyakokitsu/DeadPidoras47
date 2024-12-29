@@ -10,6 +10,9 @@
   "description": "",
   "dependencies": {
     "steam-user": "^5.2.0",
-    "steamcommunity": "^3.48.5"
+    "steamcommunity": "^3.48.5",
+    "input": "^1.0.1",
+    "steamstore": "^2.4.0",
+    "telegram": "^2.26.16"
   }
 }
